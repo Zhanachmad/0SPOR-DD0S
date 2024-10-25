@@ -1,5 +1,5 @@
 # FR33F4L35T1N4-DDos
-# Monggo Kang Mas Mbakyu di install 😁😁
+# Monggo Kang Mas Mbakyu di install SC'ne 😁😁
 
   - apt update && apt upgrade -y
 
