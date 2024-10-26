@@ -49,13 +49,13 @@ print("BIRUH BIDDAM NAFDIKA YAA AQSHA")
 print ("\033[92m")
 print "__________ °° SIYAP-SIYAP GOLEK SERVER °°__________"
 time.sleep(5)
-print "_____________°° MIWITI GOLEK SAMBUNGAN °°______________"
+print "_____________°° MIWITI GOLEK SAMBUNGAN °°____________"
 time.sleep(5)
-print "_______________°° NEMBUS LAPISAN KEAMANAN °°_______________"
+print "_______________°° NEMBUS LAPISAN KEAMANAN °°____________"
 time.sleep(5)
-print "__________________°° DIGAWE SAMBUNGAN °°_____________________"
+print "__________________°° DIGAWE SAMBUNGAN °°__________________"
 time.sleep(5)
-print "______________°° WESS TAK KEMPLANGI SRIWILL °°_________________"
+print "______________°° WESS TAK KEMPLANGI SRIWILL °°______________"
 time.sleep(3)
 sent = 0
 while True:
