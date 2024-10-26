@@ -9,8 +9,8 @@
 
   - apt install git
 
-  - git clone https://github.com/Zhanachmad/FR33F4L35T1N4-DDos.git
+  - git clone https://github.com/Zhanachmad/OjoKesusu-DDos.git
 
-  - cd FR33F4L35T1N4-DDos
+  - cd OjoKesusu-DDos
 
-  - python2 FR33F4L35T1N4-DDos.py
+  - python2 OjoKesusu-DDos.py
