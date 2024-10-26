@@ -1,4 +1,4 @@
-# FR33F4L35T1N4-DDos
+# OjoKesusu-DDos
 # sc iki digawe kanggo mentunge situs Sriwil Monggo Kang Mas Mbakyu di install SC'ne 😁😁
 
   - apt update && apt upgrade -y
