@@ -5,6 +5,7 @@ import os
 import time
 import socket
 import random
+import progressbar
 #Code Time
 from datetime import datetime
 now = datetime.now()
@@ -14,10 +15,10 @@ day = now.day
 month = now.month
 year = now.year
 
-##############
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 bytes = random._urandom(1490)
-#############
+
 
 os.system("clear")
 print("""\033[1;31m \033[[92m 
@@ -42,6 +43,26 @@ print(" ")
 ip = raw_input("033[94m[*] \033[91mIP 033[91mTarget \033[97m>>> \033[93m ")
 port = input("\033[94m[*] \033[91mPort \033[97m>>> \033[93m  ")
 
+
+def animated_marker();
+    widgets = [FormatLabel('Animated Bouncer: value %(value)d - '),
+               BouncingBar(marker=RotatingMarker())]
+
+    pbar = ProgressBar(widgets=widgets)
+    for i in pbar((i for i in range(180))):
+        time.sleep(0.05)
+        bar.update(i)
+
+
+
+
+
+
+
+def shortcut_example() -> None:
+    for _ in progressbar.progressbar(range(10)):
+        time.sleep(0.1)
+           
 os.system("clear")
 print("BIRUH BIDDAM NAFDIKA YAA AQSHA")
 print ("\033[92m")
