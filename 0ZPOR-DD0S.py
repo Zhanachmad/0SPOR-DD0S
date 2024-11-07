@@ -76,9 +76,9 @@ time.sleep(0,5),
 print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m ",
 time.sleep(0,5),
 print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> WESS TAK KEMPLANGI SRIWILL \033[0m".)
+"")
 
-
-def animated_marker();
+def animated_marker():
     widgets = ['\033[33m[\033[31m#\933[33mLoading: FormatLabel.Animated Bouncer()\033[0m']
     pbar = ProgressBar(widgets=widgets).start()
     for i in range(180):
