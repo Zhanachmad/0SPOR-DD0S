@@ -68,13 +68,13 @@ print("\033[97m⁵⁵⁵>\033\0m")
 os.system("clear")
 print ("\033[92mBIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m ")
 print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> SIYAP-SIYAP GOLEK SERVER \033[0m ")
-time.sleep(0.05)
+time.sleep(5)
 print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> MIWITI GOLEK SAMBUNGAN \033[0m ")
-time.sleep(0.05)
+time.sleep(5)
 print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> NEMBUS LAPISAN KEAMANAN \033[0m ")
-time.sleep(0.05)
+time.sleep(5)
 print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m ")
-time.sleep(0.05)
+time.sleep(5)
 print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> WESS TAK KEMPLANGI SRIWILL \033[0m"))
 
 
@@ -85,7 +85,7 @@ def animated_marker();
 
     pbar = ProgressBar(widgets=widgets).start()
     for i in pbar((i for i in range(180))):
-        time.sleep(0.05)
+        time.sleep(5)
         bar.update(i)
 
 
