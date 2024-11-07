@@ -78,11 +78,8 @@ time.sleep(5)
 print ("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> WESS TAK KEMPLANGI SRIWILL \033[0m".)
 
 
-
 def animated_marker();
-    widgets = [FormatLabel('Animated Bouncer: value %(value)d - '),
-               BouncingBar(marker=RotatingMarker())]
-
+    widgets = ['\033[33m[\033[31m#\933[33mLoading: FormatLabel.Animated Bouncer()\033[0m']
     pbar = ProgressBar(widgets=widgets).start()
     for i in pbar((i for i in range(180))):
         time.sleep(5)
