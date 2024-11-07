@@ -5,6 +5,9 @@ import os
 import time
 import socket
 import random
+import string
+import time
+import requests
 import progressbar
 #Code Time
 from datetime import datetime
@@ -49,6 +52,11 @@ print("\033[92m                                                    @      @     
 print("\033[92m                                                  @       @ @ @ @ @  \033[0m")
 print("\033[92m                                                @ @ @ @ @         @  \033[0m")
 print(" ")
+print("\033[96m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠\033[0m")
+print("\033[1m   B R I G A D E   A T T A C K E R   Z N E E P E R   E L I T E            \033[0m")
+print("\033[1m                        design by: Za'99                                  \033[0m")
+print("\033[1m                            ———0———                                          \033[0m")
+print("\033[96m≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠\033[0m")
 ip = str_input("033[94m[\033[0m" "\033[1m+\033\0m" "\033[94m]\033[0m" "\033[91mIP Target \033[0m : ")
 print("\033[97m⁵⁵⁵>\033\0m")
 port = int(input("033[94m[\033[0m" "\033[1m*\033\0m" "\033[94m]\033[0m" "\033[91mPort \033[0m : "))
