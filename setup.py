@@ -10,9 +10,6 @@ if c == "0":
      os.system("apt-get install nodej-lts")
      os.system("apt-get install npm")
      os.system("npm install os")
-     os.system("npm install sys")
-     os.system("npm install socket")
-     
 elif c == "1":
      os.system("pip3 install requests")
      os.system("pip3 install progressbar")
@@ -20,8 +17,6 @@ elif c == "1":
      os.system("apt-get install nodej-lts")
      os.system("apt-get install npm")
      os.system("npm install os")
-     os.system("npm install sys")
-     os.system("npm install socket")
      print("Done.")
 
 
