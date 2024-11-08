@@ -14,7 +14,7 @@ if c == "0":
      os.system("npm install random")
      os.system("npm install string")
      os.system("npm install progressbar") 
- elif c == "1":
+elif c == "1":
      os.system("pip3 install requests")
      os.system("apt-get install nodej-lts")
      os.system("apt-get install npm")
