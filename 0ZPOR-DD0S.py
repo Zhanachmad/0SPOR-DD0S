@@ -62,20 +62,20 @@ thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m⁸⁹⁰⁰⁰⁰⁸")
 print("\033[92mBIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m "),
 print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
-time.sleep(0,1),
+time.sleep(2),
 print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
-time.sleep(0,1),
+time.sleep(2),
 print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
-time.sleep(0,1),
+time.sleep(2),
 print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m "),
-time.sleep(0,1),
+time.sleep(2),
 
 
 def animated_marker():
     widgets = ['\033[33m[\033[31m#\033[31\033[33m#\033[31mLoading: progressbar.AnimatedBouncer()\033[0m']
     pbar = progressbar.ProgressBar(widgets=widgets).start()
     for i in range(180):
-        time.sleep(5)
+        time.sleep(2)
         bar.update(i)
 
 
