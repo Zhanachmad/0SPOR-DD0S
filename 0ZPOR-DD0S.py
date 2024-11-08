@@ -60,21 +60,21 @@ packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m⁸⁹⁰⁰⁰⁰⁸"),
-print("\033[92m........>>> BIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m "),
-print("\033[92m........>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
+print("\033[92m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
+print("\033[92m..................>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
 time.sleep(2),
-print("\033[92m........>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
+print("\033[92m..................>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
 time.sleep(2),
-print("\033[92m........>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
+print("\033[92m..................>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
 time.sleep(2),
-print("\033[92m.........>>> DIGAWE SAMBUNGAN \033[0m "),
+print("\033[92m..................>>> DIGAWE SAMBUNGAN \033[0m "),
 time.sleep(2),
 
 
 def animated_marker():
     widgets = ['\033[33m[\033[31m#\033[31\033[33m#\033[31mLoading: progressbar.AnimatedBouncer()\033[0m']
     bar = progressbar.ProgressBar(widgets=widgets).start()
-    for i in range(180):
+    for i in range(25):
         time.sleep(2)
         bar.update(i)
 
