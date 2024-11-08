@@ -59,7 +59,7 @@ print("\033[32m⁸⁹⁰⁰⁰⁰⁸")
 packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
-print("\033[94m⁸⁹⁰⁰⁰⁰⁸")
+print("\033[94m⁸⁹⁰⁰⁰⁰⁸"),
 print("\033[92m........>>> BIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m "),
 print("\033[92m........>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
 time.sleep(2),
@@ -73,10 +73,10 @@ time.sleep(2),
 
 def animated_marker():
     widgets = ['\033[33m[\033[31m#\033[31\033[33m#\033[31mLoading: progressbar.AnimatedBouncer()\033[0m']
-    pbar = progressbar.ProgressBar(widgets=widgets).start()
+    bar = progressbar.ProgressBar(widgets=widgets).start()
     for i in range(180):
         time.sleep(2)
-        pbar.update(i)
+        bar.update(i)
 
 
 animated_marker()
