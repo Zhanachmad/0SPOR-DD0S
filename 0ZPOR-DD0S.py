@@ -72,7 +72,7 @@ time.sleep(0,1),
 
 
 def animated_marker():
-    widgets = ['\033[33m[\033[31m#\933[33mLoading: progressbar.AnimatedBouncer()\033[0m']
+    widgets = ['\033[33m[\033[31m#\033[31\033[33m#\033[31mLoading: progressbar.AnimatedBouncer()\033[0m']
     pbar = progressbar.ProgressBar(widgets=widgets).start()
     for i in range(180):
         time.sleep(5)
