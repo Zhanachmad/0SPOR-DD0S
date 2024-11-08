@@ -1,4 +1,4 @@
-# OjoKesusu-DDos
+# note:
 # This script was created to convey a message of peace to the world. 
 
 # Use it wisely and do not use it to attack domestic government sites.
