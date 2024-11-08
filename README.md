@@ -1,9 +1,15 @@
 # OjoKesusu-DDos
-# This script was created to convey a message of peace to the world. Use it wisely and do not use it to attack domestic government sites.
+# This script was created to convey a message of peace to the world. 
+
+# Use it wisely and do not use it to attack domestic government sites.
 
 
-  - git clone https://github.com/Zhanachmad/OjoKesusu-DDos.git
+  - git clone https://github.com/Zhanachmad/0SPOR-DD0S.git
 
-  - cd OjoKesusu-DDos
+  - cd 0SPOR-DD0S
 
-  - python2 OjoKesusu-DDos.py
+  - git pull
+
+  - python setup.py
+
+  - python3 main.py
