@@ -57,14 +57,14 @@ packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m⁸⁹⁰⁰⁰⁰⁸")
-print("\033[92mBIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m ",
-print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> SIYAP-SIYAP GOLEK SERVER \033[0m ",
+print("\033[92mBIRUH BIDDAM NAFDIKA YAA AQSHA 033[0m "),
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
 time.sleep(0,1),
-print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> MIWITI GOLEK SAMBUNGAN \033[0m ",
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
 time.sleep(0,1),
-print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> NEMBUS LAPISAN KEAMANAN \033[0m ",
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
 time.sleep(0,1),
-print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m ",
+print("\033[92m⁵⁵⁵⁵⁵⁵⁵⁵⁵>>> DIGAWE SAMBUNGAN \033[0m "),
 time.sleep(0,1),
 
 
