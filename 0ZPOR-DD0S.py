@@ -2,7 +2,6 @@
 # _*_ coding: utf-8 _*_
 import sys
 import os
-import time
 import socket
 import random
 import string
@@ -10,6 +9,10 @@ import time
 import requests
 import progressbar
 
+# importing time module
+import time
+t = 2 # 2 seconds
+time.sleep(t)
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -72,7 +75,7 @@ def animated_marker():
     widgets = ['\033[33m[\033[31m#\933[33mLoading: FormatLabel.Animated Bouncer()\033[0m']
     pbar = ProgressBar(widgets=widgets).start()
     for i in range(180):
-        time.sleep(0,1)
+        time.sleep(5)
         bar.update(i)
 
 
